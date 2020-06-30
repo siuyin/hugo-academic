@@ -487,7 +487,7 @@
       }
       if (diagramEnabled) {
         if (init) {
-          mermaid.initialize({theme: 'dark', securityLevel: 'loose'});
+          mermaid.initialize({theme: 'neutral', securityLevel: 'loose'});
         } else {
           // Have to reload to re-initialise Mermaid with the new theme and re-parse the Mermaid code blocks.
           location.reload();
